@@ -1,0 +1,50 @@
+body{
+    background-image: url(images/pexels-photo-1695052.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#menu{
+    margin: 100px 20%;
+    background-color: rgb(255, 160, 122);
+    padding: 20px;
+    border: 2px solid rgb(126, 144, 12);
+    border-radius: 5px;
+}
+
+.header{
+    text-align:center;
+    text-decoration: dashed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(17, 17, 216);
+}
+#line{
+    border:2px;
+    color: rgb(44, 54, 243);
+    background-color: aliceblue;
+}
+.coffee{
+    width:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width:100%;
+    margin-top: 20px;
+    
+    border-collapse: collapse;
+}
+.item{
+    width:80%;
+    text-align: left;
+}
+.price{
+    width:20%;
+    text-align: right;
+}
+tr:nth-child(odd){
+    color: rgb(55, 244, 26);
+}
+
+tr:hover {background-color: #D6EEEE;}
