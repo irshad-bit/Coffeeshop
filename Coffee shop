@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+      <header >
+        <h1 class= "header" style="margin: top 20px;">Camper Cafe</h1>
+        <p class="header">Est. 2020</p>
+      </header>
+      <hr style="color:burlywood;">
+      <figcaption style="margin-top: 20px;" class="header"><em>Coffee</em></figcaption>
+
+      <img class="coffee"src="https://images.pexels.com/photos/1207918/pexels-photo-1207918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      <div class="list">
+        <table>
+            <tr>
+                <td class="Item">French Vanilla</td>
+                <td class="price">3.00</td>
+            </tr>
+                <tr>
+                  <td class="Item">Caramel Macchiato</td>
+                  <td class="price">3.75</td>
+                </tr>
+                <tr>
+                  <td class="Item">Pumpkin Spice</td>
+                  <td class="price">3.50</td>
+                </tr>
+                <tr>
+                  <td class="Item">Hazelnut</td>
+                  <td class="price">4.00</td>
+                </tr>
+                <tr>
+                  <td class="Item">Mocha</td>
+                  <td class="price">4.50</td>
+                </tr>
+        </table>
+      </div>
+      <hr style="color:burlywood;">
+    </div>
+    
+</body>
+</html>
